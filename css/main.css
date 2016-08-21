@@ -1,0 +1,130 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	border:red 3px solid
+}
+body input:required:valid,
+body textarea:required:valid {
+	border: green 3px solid
+}
+body {
+	font-family: "Manteka", sans-serif;
+	font-size: 16px;
+}
+
+.header_topline {
+	padding-top: 30px;
+	color: #fff;
+}
+.header_topline a {
+	color: #fff;
+}
+.header_topline a:hover {
+	color: #2c2c2c;
+	transition: 0.3s;
+}
+.logo {
+	float: left;
+}
+.logo a {
+font-size: 40px;
+}
+.soc_buttons {
+	float: right;
+}
+.soc_buttons a {
+	font-size: 40px;
+	margin-left: 8px;
+}
+.main_mnu_button {
+	background-color: transparent;
+	border: medium none;
+	font-size: 35px;
+}
+.main_mnu_button {
+	color: #fff;
+	padding: 8px 15px 0;
+}
+
+header.top_header {
+	background: url(../img/back1.jpg);
+	height: 1060px;
+}
+.maian_mnu {
+	color: #fff;
+	margin-bottom: 20px;
+	display: block;
+	text-align: center;
+}
+.maian_mnu a {
+	color: #fff;
+	padding: 15px;
+	display: block;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+	font-size: 20px;
+}
+.maian_mnu a:hover {
+	color:#2c2c2c;
+}
+.maian_mnu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	float: left;
+	text-transform: uppercase;
+}
+.maian_mnu ul li {
+	display: inline-block;
+}
+.maian_mnu ul {
+	z-index: 12;
+}
+.notessplash {
+	margin-top: 20%;
+	display: block;
+	text-align: center;
+	font-size: 48px;
+	color: #161616
+}
+.space_main {
+	height: 100%;
+	background: white;
+}
+.space_main_text {
+	padding: 30px;
+	display: block;
+	text-align: center;
+	color: #161616;
+	font-size: 30px;
+}
+img {
+	vertical-align: middle;
+}
+.img-responsive{display:block;max-width:100%;height:auto}
+.post_main {
+	position: relative;
+}
+.music_load {float: left;
+}
+.music_text {
+	float: left;
+	color: #161616;
+}
