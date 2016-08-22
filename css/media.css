@@ -41,6 +41,9 @@
 		.notessplash {
 		margin-top: 50%;
 	}
+	.soc_buttons a {
+		font-size: 30px;
+	}
 
 }
 }
@@ -50,8 +53,8 @@
 	.notessplash {
 		margin-top: 50%;
 	}
-	.soc_buttons {
-		display: none;
+	.soc_buttons a {
+		font-size: 25px;
 	}
 .soc_button {
 	display: block;
@@ -60,7 +63,6 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-
 }
 
 
